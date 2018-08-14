@@ -1,18 +1,97 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>My CV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="public/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="public/css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <!-- css boostrap-->
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <div id="menu">
+                    <ul>
+                      <li><a href="#">HOME</a></li>
+                      <li><a href="#">RESUME</a></li>
+                      <li><a href="#">PROJECTS</a></li>
+                      <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="clearfix"></div>
+            <div class="container">
+                <div class="bocuc">
+                    <div class="col-md-4">
+                    <div class="img">
+                        <img src="public/images/39177601_2114318865308398_9148540108691996672_n.png" alt=""/>
+                    </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h1>HELLO!!</h1>
+                        <p>Your life</p>
+                    </div>
+                </div>
+               
+                
+            </div>
+            <div class="clearfix"></div>
+        </header>
+         <div class="clearfix"></div>
+         <div style="background: #31b0d5;" class="a">
+            <div class="col-md-3">
+                       <div style="margin-right: 50px; margin-right: 10px;" class="call">
+                        <div style="margin-top: 15px;" id="hCall">
+                            <img style="height: 30px; width: 30px;" src="public/images/contact.png" alt=""/>
+                        </div>
+                        <div  id="contentCall">
+                            <h5>Call</h5>
+                            <p>0938640208</p>
+                        </div>
+
+                    </div> 
+            </div>
+                    <div class="col-md-3">
+                    <div class="contact">
+                        <div style="margin-top: 15px; margin-right: 10px;" id="hCall">
+                            <img style="height: 30px; width: 30px;" src="public/images/email.png" alt=""/>
+                        </div>
+                        <div  id="contentCall">
+                            <h5>Email</h5>
+                            <p>dnanh@gmail.com</p>
+                        </div>
+
+                    </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="facebook">
+                        <div style="margin-top: 5px; margin-right: 10px;" id="hCall">
+                            <a href="https://www.facebook.com/lun20897" title="Học HTML Online" target="_blank"><img style="height: 50px; width: 50px;"  src="public/images/drink_facebook.png" alt=""/></a>
+
+                        </div>
 
 
-{% include career-profile.html %}
+                    </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="info">
+                        <div style="margin-top: 15px; margin-right: 10px;" id="hCall">
+                            <img style="height: 30px; width: 30px;" src="public/images/document_properties.png" alt=""/>
+                        </div>
+                        <div  id="contentCall">
+                            <h5>Dang Ngoc Anh </h5>
+                            <p>2018</p>
+                        </div>
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include experiences.html %}
-
-{% include projects.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
+                    </div>
+                    </div>
+        </div>
+        
+        
+    </body>
+</html>
