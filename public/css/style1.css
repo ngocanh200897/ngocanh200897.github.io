@@ -1,0 +1,77 @@
+.header {
+    background: #31b0d5;
+    text-align: center;
+}
+.header .content h3 {
+  color: #fff;
+}
+.header .content p {
+ color: #fff;
+}
+.header img{
+    height: 200px;
+     width: 200px;
+     border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    margin-top: 50px;
+}
+.header .imgs{
+   
+    width: 100%;
+}
+.gray-bg {
+    background-color: #f9f9f9;
+}
+.section-title h2 {
+    margin-bottom: 5px;
+    color: #bebece;
+}
+p {
+    margin-bottom: 20px;
+}
+.expertise-item h3 {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.expertise-item {
+    margin-bottom: 20px;
+}
+.content-item h3{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.progress-item .progress-bar {
+    background-color: #2a54f5;
+    box-shadow: none;
+    text-align: right;
+}
+
+.portfolio-item {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+.portfolio-item .portfolio-thumb img {
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+.portfolio-item .portfolio-info {
+    position: absolute;
+    bottom: 0;
+    padding: 50px 25px 10px;
+    width: 100%;
+    background: -webkit-linear-gradient(
+ top,
+ transparent 0%,
+ rgba(0, 0, 0, 0.5) 100%
+ );
+}
+.portfolio-item:hover .portfolio-info {
+    background: -webkit-linear-gradient(
+ top,
+ transparent 0%,
+ rgba(42, 84, 245, 0.5) 100%
+ );
+}
